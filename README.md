@@ -136,7 +136,7 @@ This will stop the running containers and remove them, but the Docker images wil
 The project folder structure should look something like this:
 
 ```
-/project-name
+/relinns-testtask
   ├── images
   ├── Dockerfile
   ├── docker-compose.yml
