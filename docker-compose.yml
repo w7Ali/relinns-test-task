@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: wA_testtaak
+    environment:
+      - HUGGINGFACE_API_KEY=${HUGGINGFACE_API_KEY}
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
+    # restart: always
